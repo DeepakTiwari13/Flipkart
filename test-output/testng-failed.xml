@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipKartSuite]">
+  <test name="FLIPKARTLANDINGPAGE Test(failed)">
+    <classes>
+      <class name="Test.TVsTest">
+        <methods>
+          <include name="InitTest"/>
+        </methods>
+      </class> <!-- Test.TVsTest -->
+      <class name="Test.LandingPageTest">
+        <methods>
+          <include name="LandingPageElementListTest"/>
+        </methods>
+      </class> <!-- Test.LandingPageTest -->
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="InitTest"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+      <class name="Test.OfferZoneTest">
+        <methods>
+          <include name="InitTest"/>
+        </methods>
+      </class> <!-- Test.OfferZoneTest -->
+    </classes>
+  </test> <!-- FLIPKARTLANDINGPAGE Test(failed) -->
+  <test name="FLIPKARTTVs test(failed)">
+    <classes>
+      <class name="Test.TVsTest">
+        <methods>
+          <include name="InitTest"/>
+          <include name="TVsatFlipkarttest"/>
+        </methods>
+      </class> <!-- Test.TVsTest -->
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="InitTest"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+      <class name="Test.OfferZoneTest">
+        <methods>
+          <include name="InitTest"/>
+        </methods>
+      </class> <!-- Test.OfferZoneTest -->
+    </classes>
+  </test> <!-- FLIPKARTTVs test(failed) -->
+</suite> <!-- Failed suite [FlipKartSuite] -->

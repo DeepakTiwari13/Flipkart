@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="FlipKartSuite" verbose="1" >
+<test name="FLIPKARTLOGINPAGE test" >
+   <classes>
+      <class name="Test.LoginTest" />
+   </classes>
+</test>
+ 
+<test name="FLIPKARTLANDINGPAGE Test" >
+   <classes>
+      <class name="Test.LandingPageTest" />
+   </classes>
+</test>
+ 
+<test name="FLIPKARTDAILYOFFER test" >
+   <classes>
+      <class name="Test.OfferZoneTest" />
+   </classes>
+</test>
+
+<test name="FLIPKARTTVs test" >
+   <classes>
+      <class name="Test.TVsTest" />
+   </classes>
+</test>
+ 
+</suite>
